@@ -9,5 +9,8 @@ var $plugins =
 {"name":"CustomizeConfigDefault","status":true,"description":"オプションデフォルト値設定プラグイン","parameters":{"常時ダッシュ":"OFF","コマンド記憶":"OFF","BGM音量":"100","BGS音量":"100","ME音量":"100","SE音量":"100","常時ダッシュ消去":"ON","コマンド記憶消去":"ON","BGM音量消去":"OFF","BGS音量消去":"OFF","ME音量消去":"OFF","SE音量消去":"OFF"}},
 {"name":"MessageSkip","status":false,"description":"メッセージスキッププラグイン","parameters":{"スキップキー":"tab","オートキー":"shift","スキップスイッチ":"0","オートスイッチ":"3","スキップアイコン":"140","オートアイコン":"75","アイコンX":"0","アイコンY":"0","押し続けスキップ":"false","オート待機フレーム":"100 + textSize * 10","終了解除スイッチID":"4","スキップピクチャ":"","ボタン原点":"0","ボタン表示スイッチID":"0","スキップピクチャX":"500","スキップピクチャY":"0","オートピクチャ":"","オートピクチャX":"750","オートピクチャY":"0","ピクチャ座標タイプ":"relative","無効化スイッチ":"0"}},
 {"name":"Chikuwa","status":true,"description":"「どのデータをロードしても共有した変数を読み込める」プラグイン","parameters":{"FileName":"chikuwa","WebStorageKey":"Chikuwa"}},
-{"name":"MPP_ChoiceEX","status":true,"description":"【ver.3.11】選択肢の機能拡張","parameters":{"maxPageRow":"6","Disabled Index":"none","=== Command ===":"","Plugin Commands":"{\"ChoicePos\":\"ChoicePos\",\"ChoiceVariableId\":\"ChoiceVariableId\",\"ChoiceRect\":\"ChoiceRect\",\"ChoiceUnderMessage\":\"ChoiceUnderMessage\"}","Event Comment":"{\"ChoiceHelp\":\"選択肢ヘルプ\"}"}}
+{"name":"MPP_ChoiceEX","status":true,"description":"【ver.3.11】選択肢の機能拡張","parameters":{"maxPageRow":"6","Disabled Index":"none","=== Command ===":"","Plugin Commands":"{\"ChoicePos\":\"ChoicePos\",\"ChoiceVariableId\":\"ChoiceVariableId\",\"ChoiceRect\":\"ChoiceRect\",\"ChoiceUnderMessage\":\"ChoiceUnderMessage\"}","Event Comment":"{\"ChoiceHelp\":\"選択肢ヘルプ\"}"}},
+{"name":"stbvorbis","status":false,"description":"","parameters":{}},
+{"name":"stbvorbis_asm","status":false,"description":"","parameters":{}},
+{"name":"OggOnly","status":true,"description":"音声ファイルの再生にoggファイルのみを使用します。","parameters":{"deleteM4a":"false"}}
 ];
